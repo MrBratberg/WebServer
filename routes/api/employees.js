@@ -27,7 +27,7 @@ router.route('/')
 
 
 router.route('/:id')
-    .get((res,req) => {
+    .get((req,res) => {
         res.json({"id": req.params.id});
     });
 
